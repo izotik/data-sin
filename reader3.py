@@ -334,7 +334,6 @@ def convertor(users: list, time: bool = False):
     # Добовление параметров в словарь
     for y, i in enumerate(users, start=0):
         d["id"][y] = i.id
-        print(i.id)
         d["day_or_month_contract"][y] = i.day_or_month_contract
         d['blocked'][y] = i.blocked
         # i.events события этого юзера
